@@ -1,14 +1,4 @@
 spring:
-  application:
-    name: demo
-  output:
-    ansi:
-      enabled: always
-
-server:
-  port: 8081
-
-logging:
-  level:
-    '[com.junit.demo]': DEBUG
-
+  profiles:
+    active:
+      - dev
