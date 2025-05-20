@@ -2,8 +2,8 @@ package com.junit.demo.service;
 
 import com.junit.demo.domain.Book;
 import com.junit.demo.domain.BookRepository;
-import com.junit.demo.dto.BookRespDto;
-import com.junit.demo.dto.BookSaveReqDto;
+import com.junit.demo.dto.response.BookRespDto;
+import com.junit.demo.dto.request.BookSaveReqDto;
 import com.junit.demo.util.MailSender;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

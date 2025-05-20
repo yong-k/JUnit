@@ -1,6 +1,6 @@
 package com.junit.demo.domain;
 
-import com.junit.demo.dto.BookRespDto;
+import com.junit.demo.dto.response.BookRespDto;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
