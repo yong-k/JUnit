@@ -15,7 +15,7 @@ spring:
     console:
       enabled: true
   jpa:
-    open-in-view: true
+    open-in-view: true  #컨트롤러까지 세션유지하는 정책. lazy loading.
     hibernate:
       ddl-auto: create
       naming:
